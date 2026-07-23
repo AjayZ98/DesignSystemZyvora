@@ -1,0 +1,30 @@
+:root{
+--font-display:'Cabinet Grotesk',ui-sans-serif,sans-serif;
+--font-body:'Cabinet Grotesk',ui-sans-serif,sans-serif;
+--font-mono:'SF Mono',ui-monospace,'Roboto Mono',monospace;
+
+--text-display-xl:clamp(3rem,6vw,5.5rem);
+--text-display-l:clamp(2.5rem,4.5vw,4rem);
+--text-display-m:clamp(2rem,3.4vw,2.75rem);
+--text-h1:2.25rem;
+--text-h2:1.75rem;
+--text-h3:1.375rem;
+--text-h4:1.125rem;
+--text-body-l:1.125rem;
+--text-body:1rem;
+--text-body-s:0.875rem;
+--text-caption:0.75rem;
+
+--leading-tight:1.05;
+--leading-snug:1.2;
+--leading-normal:1.45;
+--leading-relaxed:1.65;
+
+--tracking-tight:-0.02em;
+--tracking-tighter:-0.035em;
+--tracking-normal:0;
+--tracking-wide:0.06em;
+
+--weight-thin:100;--weight-extralight:200;--weight-light:300;--weight-regular:400;
+--weight-medium:500;--weight-bold:700;--weight-extrabold:800;--weight-black:900;
+}

@@ -1,0 +1,17 @@
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Thin.otf') format('opentype');font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Extralight.otf') format('opentype');font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Medium.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Bold.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Extrabold.otf') format('opentype');font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('../assets/fonts/CabinetGrotesk-Black.otf') format('opentype');font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Thin.ttf') format('truetype');font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-ExtraLight.ttf') format('truetype');font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Roboto Mono';src:url('../assets/fonts/RobotoMono-BoldItalic.ttf') format('truetype');font-weight:700;font-style:italic;font-display:swap}

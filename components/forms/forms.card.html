@@ -1,0 +1,32 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Forms — Input, Select, Checkbox, Radio, Switch" -->
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script src="../../_ds_bundle.js"></script>
+<style>*{box-sizing:border-box}body{margin:0;width:700px;padding:20px;background:var(--surface-app);font-family:var(--font-body)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.row{display:flex;gap:16px;margin-top:14px;flex-wrap:wrap}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const {Input,Select,Checkbox,Radio,Switch}=window.ZyvoraDesignSystem_548474;
+function App(){
+const [email,setEmail]=React.useState('');
+const [role,setRole]=React.useState('admin');
+const [agree,setAgree]=React.useState(true);
+const [plan,setPlan]=React.useState('monthly');
+const [notif,setNotif]=React.useState(true);
+return React.createElement('div',null,
+React.createElement('div',{className:'grid'},
+React.createElement(Input,{label:'Email',placeholder:'you@company.com',value:email,onChange:setEmail}),
+React.createElement(Input,{label:'Email',placeholder:'you@company.com',error:'Enter a valid email'}),
+React.createElement(Select,{label:'Role',value:role,onChange:setRole,options:[{value:'admin',label:'Admin'},{value:'member',label:'Member'}]})),
+React.createElement('div',{className:'row'},
+React.createElement(Checkbox,{label:'I agree to the terms',checked:agree,onChange:setAgree}),
+React.createElement(Checkbox,{label:'Disabled',disabled:true})),
+React.createElement('div',{className:'row'},
+React.createElement(Radio,{label:'Monthly',checked:plan==='monthly',onChange:()=>setPlan('monthly')}),
+React.createElement(Radio,{label:'Annual',checked:plan==='annual',onChange:()=>setPlan('annual')})),
+React.createElement('div',{className:'row'},
+React.createElement(Switch,{label:'Email notifications',checked:notif,onChange:setNotif}),
+React.createElement(Switch,{label:'Disabled',disabled:true})));}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+</script></body></html>

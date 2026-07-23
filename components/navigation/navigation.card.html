@@ -1,0 +1,13 @@
+<!-- @dsCard group="Components" viewport="700x120" name="Navigation — Tabs" -->
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script src="../../_ds_bundle.js"></script>
+<style>*{box-sizing:border-box}body{margin:0;width:700px;padding:20px;background:var(--surface-app)}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const {Tabs}=window.ZyvoraDesignSystem_548474;
+function App(){const [t,setT]=React.useState('overview');return React.createElement(Tabs,{active:t,onChange:setT,tabs:[{value:'overview',label:'Overview'},{value:'billing',label:'Billing'},{value:'team',label:'Team'},{value:'api',label:'API keys'}]});}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+</script></body></html>

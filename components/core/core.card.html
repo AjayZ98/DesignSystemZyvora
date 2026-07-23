@@ -1,0 +1,36 @@
+<!-- @dsCard group="Components" viewport="700x360" name="Core — Button, IconButton, Card, Badge, Tag" -->
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script src="../../_ds_bundle.js"></script>
+<style>*{box-sizing:border-box}body{margin:0;width:700px;padding:20px;background:var(--surface-app);font-family:var(--font-body)}.row{display:flex;gap:10px;align-items:center;margin-bottom:14px;flex-wrap:wrap}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const {Button,IconButton,Card,Badge,Tag}=window.ZyvoraDesignSystem_548474;
+const Trash=()=>React.createElement('svg',{width:16,height:16,viewBox:'0 0 24 24',fill:'none',stroke:'currentColor',strokeWidth:2},React.createElement('path',{d:'M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6'}));
+function App(){return React.createElement('div',null,
+React.createElement('div',{className:'row'},
+React.createElement(Button,{variant:'primary'},'Primary'),
+React.createElement(Button,{variant:'secondary'},'Secondary'),
+React.createElement(Button,{variant:'ghost'},'Ghost'),
+React.createElement(Button,{variant:'accent'},'Accent'),
+React.createElement(Button,{variant:'danger'},'Danger'),
+React.createElement(Button,{variant:'primary',disabled:true},'Disabled')),
+React.createElement('div',{className:'row'},
+React.createElement(IconButton,{icon:React.createElement(Trash),'aria-label':'Delete'}),
+React.createElement(IconButton,{icon:React.createElement(Trash),variant:'outline','aria-label':'Delete'}),
+React.createElement(IconButton,{icon:React.createElement(Trash),variant:'filled','aria-label':'Delete'})),
+React.createElement('div',{className:'row'},
+React.createElement(Badge,{tone:'purple'},'Pro'),
+React.createElement(Badge,{tone:'success'},'Active'),
+React.createElement(Badge,{tone:'warning'},'Pending'),
+React.createElement(Badge,{tone:'danger'},'Failed')),
+React.createElement('div',{className:'row'},
+React.createElement(Tag,{onRemove:()=>{}},'Design'),
+React.createElement(Tag,{color:'var(--clay-500)',onRemove:()=>{}},'Engineering')),
+React.createElement(Card,{elevation:'sm',interactive:true,style:{maxWidth:320}},
+React.createElement('div',{style:{fontWeight:700,marginBottom:4}},'Interactive card'),
+React.createElement('div',{style:{color:'var(--text-muted)',fontSize:14}},'Hover to lift.')));}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+</script></body></html>
